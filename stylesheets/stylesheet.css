@@ -22,6 +22,13 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+.clear{ clear:both;}
+
+/**********for demo start******/
+.demo-social-icon ul li{ list-style:none; float:left; margin:12px 4px;}
+/********demo stop************/
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -72,8 +79,9 @@ header {
 }
 
 header h1 {
+  font-family: 'Yeseva One', cursive;
   letter-spacing: -1px;
-  font-size: 72px;
+  font-size: 54px;
   color: #fff;
   line-height: 1;
   margin-bottom: 0.2em;
@@ -369,6 +377,8 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+
+
 /* #Media Queries
 ================================================== */
 
@@ -471,6 +481,7 @@ footer a:hover {
     margin-left: 0;
   }
 }
+
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
